@@ -1,0 +1,17 @@
+{
+  "name": "api-desafio-react",
+  "version": "1.0.0",
+  "description": "Esse projeto será para receber os dados de pedidos e dados do cliente de uma hamburgueria",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Silva",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  }
+}
