@@ -30,6 +30,10 @@ const checkPedidoId = (request, response, next) => {
 app.get("/order", (req, res) => {
   return res.json(pedidos); // Retorna todos os pedidos
 });
+app.get("/", (req, res) => {
+  res.send("API de pedidos de hamburgueria está rodando!");
+});
+
 
 // Rota para obter um pedido específico
 app.get("/order/:id", checkPedidoId, (req, res) => {
