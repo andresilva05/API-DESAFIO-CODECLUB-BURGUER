@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Esse projeto será para receber os dados de pedidos e dados do cliente de uma hamburgueria",
   "type": "module",
+  "engines": {
+    "node": "14.x"
+},
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "André Silva",

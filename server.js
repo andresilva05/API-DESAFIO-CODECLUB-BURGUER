@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid"; // Importando o UUID
 import cors from "cors"; // Importando o CORS
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 const pedidos = [];
 
